@@ -122,7 +122,7 @@ require (
 	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635
-	github.com/zclconf/go-cty v1.8.0
+	github.com/zclconf/go-cty v1.12.0
 	github.com/zclconf/go-cty-yaml v1.0.2
 	go.opencensus.io v0.22.1-0.20190713072201-b4a14686f0a9 // indirect
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
