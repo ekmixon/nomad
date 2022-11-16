@@ -54,7 +54,7 @@ require (
 	github.com/hashicorp/consul v1.7.8
 	github.com/hashicorp/consul-template v0.25.2
 	github.com/hashicorp/consul/api v1.9.1
-	github.com/hashicorp/consul/sdk v0.8.0
+	github.com/hashicorp/consul/sdk v0.12.0
 	github.com/hashicorp/cronexpr v1.1.1
 	github.com/hashicorp/go-checkpoint v0.0.0-20171009173528-1545e56e46de
 	github.com/hashicorp/go-cleanhttp v0.5.2
@@ -128,7 +128,7 @@ require (
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
-	golang.org/x/sys v0.0.0-20210818153620-00dd8d7831e7
+	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	google.golang.org/api v0.13.0 // indirect
