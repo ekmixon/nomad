@@ -17,7 +17,9 @@
     "build-storybook": "STORYBOOK=true ember build && build-storybook -s dist",
     "storybook": "STORYBOOK=true start-storybook -p 6006 -s dist",
     "test": "npm-run-all lint:* test:*",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -155,9 +157,11 @@
   "dependencies": {
     "lru_map": "^0.3.3",
     "no-case": "^3.0.4",
-    "title-case": "^3.0.3"
+    "title-case": "^3.0.3",
+    "@snyk/protect": "latest"
   },
   "resolutions": {
     "ivy-codemirror/codemirror": "^5.56.0"
-  }
+  },
+  "snyk": true
 }
